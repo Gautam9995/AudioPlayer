@@ -294,7 +294,7 @@ extension LiveStreamVC: UITableViewDataSource, UITableViewDelegate {
             
             // Add the next item to the data source
             if arrCommentsToShow.count == 1 {
-                let comment = Comment(id: 1000, username: "user123", picURL: "", comment: " ", isJoined: true)
+                let comment = Comment(id: 1000, username: "user123", picURL: "", comment: "", isJoined: true)
                 arrCommentsToShow.append(comment)
             } else {
                 arrCommentsToShow.append(arrComments[indexComment])

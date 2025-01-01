@@ -182,7 +182,6 @@ extension VideoCollViewCell {
     }
     
     @objc func handleDoubleTap() {
-        viewHeartAnimation.currentProgress = 0.0
         viewHeartAnimation.play()
     }
 }

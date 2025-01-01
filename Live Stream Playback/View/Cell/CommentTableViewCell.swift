@@ -51,11 +51,12 @@ extension CommentTableViewCell {
         if details.isJoined ?? false {
             imgUser.sd_setImage(with: URL(string: details.picURL), placeholderImage: UIImage(named: "ic_hand"))
             lblUsername.attributedText = createAttributedStringWithColorChange(from: "\(details.username) joined", targetText: "joined", targetColor: .white)
-            lblComment.text = details.comment
+            lblComment.isHidden = true
         } else {
             imgUser.sd_setImage(with: URL(string: details.picURL), placeholderImage: UIImage(named: "ic_user"))
             lblUsername.text = details.username
             lblComment.text = details.comment
+            lblComment.isHidden = false
         }
     }
 }
