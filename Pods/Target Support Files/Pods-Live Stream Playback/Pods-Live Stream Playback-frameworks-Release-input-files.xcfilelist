@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Live Stream Playback/Pods-Live Stream Playback-frameworks.sh
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework
